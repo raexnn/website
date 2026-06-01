@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamFlix - Movie Downloads</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">StreamFlix</div>
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#movies">Movies</a>
+      <a href="#browse">Browse</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="sign-in">Sign In</button>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-copy">
+      <span class="eyebrow">Download movies instantly</span>
+      <h1>StreamFlix brings your favorite films to one place.</h1>
+      <p>Browse curated collections, preview titles, and download movies for offline viewing.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="viewCatalogBtn">Browse Catalog</button>
+        <button class="btn btn-secondary">Premium Plans</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-card">
+        <div class="hero-tag">Top Pick</div>
+        <h2>The Silent Horizon</h2>
+        <p>A thrilling sci-fi adventure with awe-inspiring visuals and a gripping story.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="browse-section" id="browse">
+    <div class="section-header">
+      <h2>Browse Movies</h2>
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Search movies..." />
+      </div>
+    </div>
+
+    <div class="category-filters" id="categoryFilters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="action">Action</button>
+      <button class="filter-btn" data-category="drama">Drama</button>
+      <button class="filter-btn" data-category="comedy">Comedy</button>
+      <button class="filter-btn" data-category="sci-fi">Sci-Fi</button>
+    </div>
+
+    <div class="movies-grid" id="moviesGrid"></div>
+  </section>
+
+  <section class="feature-section" id="movies">
+    <h2>Featured Downloads</h2>
+    <p>Ready to download and watch offline on any device.</p>
+    <div class="feature-cards">
+      <article class="feature-card">
+        <h3>Instant Download</h3>
+        <p>Get movies downloaded directly to your device with one click.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Offline Viewing</h3>
+        <p>Save titles and watch them later even without an internet connection.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Curated Collections</h3>
+        <p>Discover new releases, trending hits, and genre favorites.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div>
+      <h3>StreamFlix</h3>
+      <p>Movie discovery and download platform for fans of cinema.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#movies">Movies</a>
+      <a href="#browse">Browse</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop hidden" id="detailModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn">×</button>
+      <div class="modal-content">
+        <div class="modal-info">
+          <h3 id="modalTitle"></h3>
+          <p id="modalDescription"></p>
+          <p><strong>Genre:</strong> <span id="modalGenre"></span></p>
+          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+          <div class="modal-actions">
+            <a class="btn btn-primary" id="modalDownloadLink" href="movie.exe" download>Download</a>
+            <button class="btn btn-ghost" id="modalWatchBtn">Watch Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
