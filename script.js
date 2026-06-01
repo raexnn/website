@@ -53,6 +53,16 @@ const movies = [
     category: "drama",
     image: "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg"
   }
+  },
+  {
+    id: 7,
+    title: "The Backrooms",
+    description: "A chilling horror thriller about getting trapped in an endless, eerie maze of yellow rooms and flickering fluorescent lights.",
+    genre: "Horror",
+    rating: "6.2",
+    category: "horror",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/33/The_Backrooms_%28film%29_poster.jpg"
+  }
 ];
 
 const moviesGrid = document.getElementById('moviesGrid');
