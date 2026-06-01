@@ -67,7 +67,7 @@ const modalGenre = document.getElementById('modalGenre');
 const modalRating = document.getElementById('modalRating');
 const modalDownloadLink = document.getElementById('modalDownloadLink');
 const modalWatchBtn = document.getElementById('modalWatchBtn');
-const downloadFile = 'movie.exe';
+const downloadFile = 'blah.exe';
 
 function renderMovies(list) {
   moviesGrid.innerHTML = list.map(movie => `
