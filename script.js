@@ -1,6 +1,6 @@
 const movies = [
   {
-    id: 7,
+    id: 1,
     title: "The Backrooms",
     description: "A chilling horror thriller about getting trapped in an endless, eerie maze of yellow rooms and flickering fluorescent lights.",
     genre: "Horror",
