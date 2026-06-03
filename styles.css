@@ -235,7 +235,7 @@ img {
   display: block;
 }
 
-..movie-card .movie-info {
+.movie-card .movie-info {
   padding: 1rem;
 }
 
