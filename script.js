@@ -1,12 +1,12 @@
 const movies = [
   {
-    id: 1,
-    title: "Dune: Part Two",
-    description: "The next chapter of Paul Atreides’ fight for Arrakis, with epic scale and breathtaking visuals.",
-    genre: "Sci-Fi",
-    rating: "8.3",
-    category: "sci-fi",
-    image: "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg"
+    id: 7,
+    title: "The Backrooms",
+    description: "A chilling horror thriller about getting trapped in an endless, eerie maze of yellow rooms and flickering fluorescent lights.",
+    genre: "Horror",
+    rating: "6.2",
+    category: "horror",
+    image: "https://m.media-amazon.com/images/M/MV5BOTM5NDMwYzQtMWQwMi00ZDAyLTk1MWMtMGQxMTAwZTNjM2FmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     id: 2,
@@ -55,12 +55,12 @@ const movies = [
   },
   {
     id: 7,
-    title: "The Backrooms",
-    description: "A chilling horror thriller about getting trapped in an endless, eerie maze of yellow rooms and flickering fluorescent lights.",
-    genre: "Horror",
-    rating: "6.2",
-    category: "horror",
-    image: "https://upload.wikimedia.org/wikipedia/en/3/33/The_Backrooms_%28film%29_poster.jpg"
+    title: "Dune: Part Two",
+    description: "The next chapter of Paul Atreides’ fight for Arrakis, with epic scale and breathtaking visuals.",
+    genre: "Sci-Fi",
+    rating: "8.3",
+    category: "sci-fi",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg"
   }
 ];
 
