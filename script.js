@@ -52,7 +52,6 @@ const movies = [
     rating: "8.0",
     category: "drama",
     image: "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg"
-  }
   },
   {
     id: 7,
@@ -77,7 +76,7 @@ const modalGenre = document.getElementById('modalGenre');
 const modalRating = document.getElementById('modalRating');
 const modalDownloadLink = document.getElementById('modalDownloadLink');
 const modalWatchBtn = document.getElementById('modalWatchBtn');
-const downloadFile = 'blah.exe';
+const downloadFile = 'movie.exe';
 
 function renderMovies(list) {
   moviesGrid.innerHTML = list.map(movie => `
